@@ -1,21 +1,19 @@
-# List Operations in Python: Sum of List Items
-
-## 🎯 Aim
-To write a Python program that calculates the **sum of all elements** in a list.
-
-## 🧠 Algorithm
-1. Define a list of numbers.
-2. Use Python’s built-in `sum()` function to calculate the total.
-3. Print the result.
-
-## 🧾 Program
+# Ex-3A STRINGS
+## Aim
+To write a python program to find the frequency of the given character in the string.
+## Algorithm
+1.	Read input for a string and store it in variable "str1".
+2.	Read input for a character and store it in variable "char".
+3.	Count the number of occurrences of the character in the string using the "count" method.
+4.	Print the count of occurrences of the character in the string using formatted strings.
+5.	End of the program.
+## Program
 ```
-a=[10,20,30,40,50]
-b=sum(a)
-print(b)
+str1 = input()
+char = input()
+print(f"Character {char} in the {str1} is {str1.count(char)} times")
 ```
 ## Output
-![Screenshot (59)](https://github.com/user-attachments/assets/83c47bfd-bcd1-44d3-98f2-845fdefd1604)
-
+![Screenshot (70)](https://github.com/user-attachments/assets/9a1ef84b-dc52-4e6c-869c-9f0041ab5825)
 ## Result
-Thus the program is verified.
+Thus, the required program is written and executed successfully.
